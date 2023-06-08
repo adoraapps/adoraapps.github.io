@@ -1,0 +1,105 @@
+html {
+    overflow-x: hidden;
+}
+  
+body {
+    font-family: "Poppins", sans-serif;
+    color: #9fa1a4;
+    line-height: 1.5;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+a:hover {
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.text-primary {
+    color: #449F76 !important;
+}
+
+.header {
+    background: linear-gradient(to right, rgba(15, 110, 68, 0.7) 0%, rgba(117, 183, 152, 0.7) 100%), url(../img/bg.jpg);
+    position: relative;
+    padding-top: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.header .logo img {
+    max-height: 48px;
+    margin-bottom: 16px;
+}
+
+.header .screenshot {
+    position: relative;
+}
+
+.header .screenshot .carousel .carousel-inner {
+    width: 100%;
+}
+
+.header .screenshot .phone-1,
+.header .screenshot .phone-2 {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    border-radius: 30px;
+    width: 240px;
+}
+
+.header .screenshot .phone-2 {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+.container {
+    position: relative;
+}
+
+.tagline {  
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.tagline h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.tagline p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn {
+    border: none;
+    padding: 15px 30px !important;
+    font-weight: 500 !important;
+}
+
+.btn:hover {
+    color: #449F76 !important;
+}
