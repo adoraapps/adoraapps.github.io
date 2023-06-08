@@ -70,7 +70,18 @@ h6,
 .header .screenshot .phone-2 {
     margin-top: 50px;
     margin-left: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .header .btn-previous {
+        margin-left: -60px;
+    }
+
+    .header .btn-next {
+        margin-right: -60px;
+    }
   }
+  
 
 .container {
     position: relative;
