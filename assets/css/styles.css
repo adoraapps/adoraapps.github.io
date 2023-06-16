@@ -74,7 +74,12 @@ h6,
     .logo img {
         max-height: 36px !important;
     }
-  }
+
+    .header .screenshot .carousel {
+        width: 100%;
+        padding: 0 !important;
+    }
+}
   
 
 .container {
