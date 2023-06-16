@@ -67,13 +67,8 @@ h6,
         margin-right: -60px;
     }
 
-    .tagline p, 
     .tagline h1 {
-        text-align: center;
-    }
-
-    .tagline h1 {
-        font-size: small;
+        font-size: smaller;
     }
   }
   
