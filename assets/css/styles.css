@@ -104,6 +104,10 @@ h6,
     color: #fff;
 }
 
+.tagline .requirement {
+    font-size: 14px;
+}
+
 .btn {
     border: none;
     padding: 15px 30px !important;
